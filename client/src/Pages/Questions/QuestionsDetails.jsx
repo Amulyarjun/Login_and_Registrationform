@@ -13,7 +13,7 @@ import { postAnswer, deleteQuestion, voteQuestion } from "../../actions/question
 
 
 const QuestionsDetails = () => {
-
+  
   const { id } = useParams();
   const questionsList = useSelector((state) => state.questionsReducer);
   
@@ -113,6 +113,7 @@ const handleUpVote = () => {
 const handleDownVote = () => {
   dispatch(voteQuestion(id, "downVote", User.result._id))
 };
+
 
   return (
     <div className="question-details-page">

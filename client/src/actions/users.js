@@ -17,3 +17,4 @@ export const updateProfile = (id, updateData) => async (dispatch) => {
     console.log(error)
   }
 }
+

@@ -17,7 +17,7 @@
  font-weight: 400;
 }
 
-.main-bar-header .ask-btn {
+.main-bar-header .ask-btn  {
  padding: 10px 15px;
  border-radius: 4px;
  background-color: #009dff;
@@ -26,10 +26,23 @@
  text-decoration: none;
  transition: 0.3s;
 }
+.main-bar-header .subs-btn{
+ padding: 10px 15px;
+ border-radius: 4px;
+ background-color: #009dff;
+ color: white;
+ border: none;
+ text-decoration: none;
+ transition: 0.3s;
+  }
 
 .main-bar-header .ask-btn:hover {
  background-color: #0086d8;
 }
+
+.main-bar-header .subs-btn:hover {
+    background-color: #0086d8;
+   }
 
 .display-question-container {
  min-height: 80px;

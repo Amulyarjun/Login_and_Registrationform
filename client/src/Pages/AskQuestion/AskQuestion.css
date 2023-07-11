@@ -40,6 +40,15 @@
   width: calc(100% - 20px);
   resize: none; /*edited vertical*/
 }
+.subs-btn{
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #009dff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  transition: 0.3s;
+}
 
 .review-btn {
   margin: 50px 0px;
@@ -53,5 +62,4 @@
 .review-btn:hover {
   background-color: #0086d8;
 }
-
 

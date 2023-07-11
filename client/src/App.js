@@ -1,11 +1,13 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import AllRoutes from './AllRoutes';
 import { fetchAllQuestions } from "./actions/question";
 import { fetchAllUsers } from "./actions/users";
+
+
 
 function App() {
   const dispatch = useDispatch();
@@ -20,6 +22,7 @@ function App() {
       <Router >
         <Navbar />
         <AllRoutes />
+        
       </Router >
 
     </div>
