@@ -1,16 +1,13 @@
 .left-sidebar {  
   width: 164px;
   box-shadow: 1px 1px 0 rgba(0, 0, 0 , 0.2);
-  background-color: white; /*edited*/
+  background-color: white; 
   height: auto;
   min-height: 100vh;
   transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s;
- /* transform: translateZ(0);*/
   box-sizing: border-box;
   font-size: 13px;
 }
-
-
 
 
 .side-nav {
@@ -26,9 +23,7 @@
   padding: 10px 0px;
 }
 
-.side-nav-div div {
-  padding-left: 10px;
-}
+
 
 .side-nav-links {
   text-decoration: none;
